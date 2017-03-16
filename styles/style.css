@@ -1,0 +1,26 @@
+body {
+  color: #333;
+  padding: 10px 100px 200px 100px; /* 上 右 下 左*/
+  line-height: 28px;
+}
+#article-title{
+  margin-bottom: 50px;
+}
+.avator{
+  float: left;
+  border-radius: 50%;
+}
+.author-info, .article-info{
+  margin-left: 60px;
+}
+.author-lable{
+  color: #FF0000;
+  border: 1px solid #FF0000;
+  border-radius: 3px;
+}
+.follow-btn{
+  color: #FFF;
+  padding: 0 10px;
+  background: #42c02e;
+  border-radius: 10px;
+}
