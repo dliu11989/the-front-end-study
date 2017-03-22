@@ -1,0 +1,71 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding-top: 50px;
+  color: #333;
+  line-height: 28px;
+}
+
+nav{
+  height: 50px;
+  background: #1B8AFA;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
+
+.brand{
+  float: left;
+  padding: 0 10px;
+}
+
+nav li{
+  float: left;
+  margin: 0 15px;
+  list-style: none;
+}
+nav li a{
+  text-decoration: none;
+  line-height: 50px;
+  color: #FFF;
+}
+nav li a:hover{
+  border-bottom: 2px solid #FFF;
+}
+
+.account-menu{
+  float: right;
+}
+
+.modal{
+  display: none;
+  /*visibility: hidden;*/
+  /*opacity: .9;*/
+  width: 500px;
+  margin-left: -250px;
+  position: fixed;
+  left: 50%;
+  top: 200px;
+  background: #EFEFEF;
+  border-radius: 5px;
+}
+.modal-title{
+  padding: 10px;
+  border-bottom: 1px solid #CCC;
+}
+.modal-body{
+  padding: 10px;
+}
+.modal-footer{
+  padding: 10px;
+  border-top: 1px solid #CCC;
+  text-align: right;
+}
+.modal-footer button{
+  padding: 3px 5px;
+  cursor: wait;
+}
