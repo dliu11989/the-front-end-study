@@ -1,0 +1,12 @@
+#side{
+  width: 200px;
+  height: 500px;
+  float: left;
+  background: #CCC;
+}
+
+#content{
+  height: 500px;
+  margin-left: 200px;
+  background: #EFEFEF;
+}
