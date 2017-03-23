@@ -27,15 +27,51 @@
       </ul>
     </nav>
 
-    <div class="modal" id="alert">
-      <h3 class="modal-title">弹出框</h3>
-      <div class="modal-body">
-        <p>这是一个弹出框!</p>
-      </div>
-      <div class="modal-footer">
-        <button>取消</button>
-        <button>确认</button>
+    <div class="two-col">
+      <div class="side"></div>
+      <div class="content"></div>
+    </div>
+
+
+    <div class="two-col-2">
+      <div class="side"></div>
+      <div class="content"></div>
+    </div>
+
+
+    <div class="two-col-3">
+      <div class="side"></div>
+      <div class="content"></div>
+    </div>
+
+
+    <div class="three-col">
+      <div class="side"></div>
+      <div class="content"></div>
+      <div class="right-side"></div>
+    </div>
+
+    <div class="three-col-2">
+      <div class="side"></div>
+      <div class="right-side"></div>
+      <div class="content"></div>
+    </div>
+
+
+    <div class="modal-wrap" id="alert">
+      <div class="modal-cover"></div>
+      <div class="modal">
+        <h3 class="modal-title">弹出框</h3>
+        <div class="modal-body">
+          <p>这是一个弹出框!</p>
+        </div>
+        <div class="modal-footer">
+          <button onclick="hideModal('alert')">取消</button>
+          <button>确认</button>
+        </div>
       </div>
     </div>
+
+    <script src="javascripts/navbar.js"></script>
   </body>
 </html>
