@@ -41,8 +41,11 @@ nav li a:hover{
   float: right;
 }
 
-.modal{
+.modal-wrap{
   display: none;
+}
+.modal{
+  /*display: none;*/
   /*visibility: hidden;*/
   /*opacity: .9;*/
   width: 500px;
@@ -52,6 +55,7 @@ nav li a:hover{
   top: 200px;
   background: #EFEFEF;
   border-radius: 5px;
+  z-index: 10;
 }
 .modal-title{
   padding: 10px;
@@ -68,4 +72,123 @@ nav li a:hover{
 .modal-footer button{
   padding: 3px 5px;
   cursor: wait;
+}
+
+.modal-cover{
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  /*background: #333;
+  opacity: .5;*/
+  background: rgba(0, 0, 0, .5);
+  z-index: 9;
+}
+
+.two-col{
+  height: auto;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.two-col .side{
+  width: 200px;
+  height: 100px;
+  float: left;
+  background: #333;
+}
+.two-col .content{
+  height: 100px;
+  margin-left: 200px;
+  background: #EFEFEF;
+}
+
+.two-col-2{
+  height: auto;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.two-col-2 .side{
+  width: 30%;
+  height: 100px;
+  float: left;
+  background: #333;
+}
+.two-col-2 .content{
+  width: 70%;
+  height: 100px;
+  float: left;
+  background: #EFEFEF;
+}
+
+
+.two-col-3{
+  height: auto;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 10px;
+}
+.two-col-3 .side{
+  width: 200px;
+  height: 100px;
+  background: #333;
+}
+.two-col-3 .content{
+  height: 100px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 200px;
+  background: #EFEFEF;
+}
+
+.three-col{
+  height: auto;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 10px;
+}
+.three-col .side{
+  width: 200px;
+  height: 100px;
+  float: left;
+  background: #333;
+}
+.three-col .content{
+  height: 100px;
+  position: absolute;
+  top: 0;
+  right: 200px;
+  left: 200px;
+  background: #EFEFEF;
+}
+.three-col .right-side{
+  width: 200px;
+  height: 100px;
+  float: right;
+  background: #F00;
+}
+
+
+.three-col-2{
+  height: auto;
+  overflow: hidden;
+  position: relative;
+}
+.three-col-2 .side{
+  width: 200px;
+  height: 100px;
+  float: left;
+  background: #333;
+}
+.three-col-2 .right-side{
+  width: 200px;
+  height: 100px;
+  float: right;
+  background: #F00;
+}
+.three-col-2 .content{
+  height: 100px;
+  margin: 0 200px;
+  background: #EFEFEF;
 }

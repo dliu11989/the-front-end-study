@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding-top: 50px;
+  color: #333;
+  line-height: 28px;
+}
+
+.grid{
+  /*height: auto;
+  overflow: hidden;*/
+  margin-bottom: 10px;
+  border: 1px solid #EFEFEF;
+}
+.grid::after{
+  display: block;
+  content: "";
+  clear: both;
+}
+
+.grid .col-2{
+  float: left;
+  width: 50%;
+  height: 100px;
+  position: relative;
+}
+
+.modal{
+  display: none;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  background: #333;
+}
+
+.col-3{
+  float: left;
+  width: 33.333333%;
+  height: 100px;
+}
+
+.col-5{
+  float: left;
+  width: 66.666666%;
+  height: 100px;
+}
+
+.col-6{
+  float: left;
+  width: 66.666666%;
+  height: 100px;
+}
